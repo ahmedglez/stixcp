@@ -1,8 +1,10 @@
 .navbar {
   background-color: #302e56;
   color: rgba(255, 255, 255, 0.919);
-  max-height: min-content;
-  min-width: 220px !important;
+  min-width: 250px !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 a {
@@ -44,12 +46,19 @@ a:hover {
   color: rgba(255, 255, 255, 0.071) !important;
 }
 
+.navbar-toggler div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .navbar-toggler-icon {
   filter: invert(100%);
+  min-width: 30px;
 }
 
 .navbar-brand img {
-  min-width: 120px;
+  min-width: 80px;
   width: 100% !important;
   border-radius: 20px;
   justify-self: center !important;

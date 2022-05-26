@@ -10,7 +10,9 @@ const Header = () => {
             <div class="container-fluid justify-content-between">
 
                 <button class="navbar-toggler col-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span id='collapse-button' class="navbar-toggler-icon"></span>
+                   <div>
+                   <span id='collapse-button' class="navbar-toggler-icon"></span>
+                   </div>
                 </button>
                 <Link class="navbar-brand   col-2 " to={'/'}>
                     <img src={logo} alt="Stixcp Logo" />

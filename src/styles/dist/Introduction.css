@@ -1,22 +1,22 @@
 .introduction-container {
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 !important;
 }
 
 .introduction-container img {
   width: 100%;
-  min-width: 220px;
+  min-width: 230px;
+  max-height: 750px;
   background-position: center;
   background-repeat: round;
+  justify-self: center;
 }
 
-.introduction-text {
-  width: 50%;
-  max-width: 250px;
-  max-height: 100px;
-  position: relative;
-  top: -220px;
-  color: #302e56;
-  font-weight: 700;
-  text-shadow: 2px black !important;
-  font-size: 0.85em;
+@media screen and (max-width: 400px) {
+  .introduction-container img {
+    max-height: 350px;
+  }
 }

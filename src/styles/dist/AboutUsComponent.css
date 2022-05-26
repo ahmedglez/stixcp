@@ -1,0 +1,72 @@
+.about-us-component {
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-us-component-title {
+  font-family: Helvetica, sans-serif;
+  min-width: 250px;
+  color: #302e56;
+  margin-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  width: 95%;
+  font-size: 1.7em;
+}
+
+.about-us-component-description {
+  font-family: Helvetica, sans-serif;
+  color: #302e56;
+  font-size: 1.32em;
+  text-align: justify;
+  font-weight: 500;
+  margin-top: -20px;
+}
+
+#about-us-component-button {
+  width: 105% !important;
+  height: 80px;
+  max-height: 50px !important;
+  background-color: white;
+  border-radius: 40px;
+  color: #302e56;
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+  border-width: 3px;
+  border-color: #302e56;
+  text-align: center;
+  font-weight: bold;
+  transition-duration: 230ms;
+}
+
+#about-us-component-button:hover {
+  box-shadow: -7px -15px 42px -14px rgba(98, 87, 87, 0.75) inset;
+  -webkit-box-shadow: -7px -15px 42px -14px rgba(98, 87, 87, 0.75) inset;
+  -moz-box-shadow: -7px -15px 42px -14px rgba(98, 87, 87, 0.75) inset;
+  background-color: #302e56;
+  color: white;
+  border: none;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 400px) {
+  .about-us-component-title {
+    font-size: 1.1em;
+  }
+
+  .about-us-component-description {
+    font-size: 0.7em;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .about-us-component-title {
+    font-size: 0.9em;
+  }
+
+  .about-us-component-description {
+    text-align: start;
+  }
+}
