@@ -1,44 +1,46 @@
 import React from 'react';
 import logo from '../assets/images/logo.jpeg'
-import {
-    Container, Row, Col, Form, Input, Button, Navbar, Nav,
-    NavbarBrand, NavLink, NavItem, UncontrolledDropdown,
-    DropdownToggle, DropdownMenu, DropdownItem
-} from 'reactstrap';
 import '../styles/Header.scss'
+import { Link } from 'react-router-dom';
+import phoneIcon from '../assets/icons/phone-solid.svg'
 
 const Header = () => {
     return (
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand col rounded" href="#">
-                    <img class='col-4' src={logo} alt="Stixcp Logo" />
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+        <nav class="navbar" id='navbar'>
+            <div class="container-fluid justify-content-between">
+
+                <button class="navbar-toggler col-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span id='collapse-button' class="navbar-toggler-icon"></span>
                 </button>
+                <Link class="navbar-brand   col-2 " to={'/'}>
+                    <img src={logo} alt="Stixcp Logo" />
+                </Link>
+
+                <Link class='col-2' to='/contact'>
+                <img id='phone-icon' src={phoneIcon} alt="" />
+                </Link>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav justify-content-end">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            <Link class="nav-link active" to='/'>Inicio</Link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" >Productos</a>
+                            <Link class="nav-link" to='/products' >Productos</Link>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" >Servicios</a>
+                            <Link class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" to='/services'>Servicios</Link>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Vigilancia y Seguridad</a>
-                                <a class="dropdown-item" href="#">Control de Accesos</a>
-                                <div class="dropdown-divider">Domotica y Comunicaciones</div>
-                                <a class="dropdown-item" href="#">Domotica: Casa Inteligente</a>
+                                <Link class="dropdown-item" to='/services/vigilancy-security'>Vigilancia y Seguridad</Link>
+                                <Link class="dropdown-item" to='/services/access-control'>Control de Accesos</Link>
+                                <Link class="dropdown-item" to='/services/domotic-communications'>Domotica y Comunicaciones</Link>
+                                <Link class="dropdown-item" to='/services/smart-house'>Domotica: Casa Inteligente </Link>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Quiénes somos?</a>
+                            <Link class="nav-link" to='/about'>Quiénes somos?</Link>
                         </li>
                         <li class="nav-item" id='contact'>
-                            <a class="nav-link">Contactar</a>
+                            <Link class="nav-link" to='/contact'>Contactar</Link>
                         </li>
                     </ul>
                 </div>

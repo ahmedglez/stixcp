@@ -1,11 +1,23 @@
 import React from 'react'
-import Header from '../components/Header'
+import { Routes, Route, Link } from "react-router-dom";
+import Layout from '../containers/Layout';
+import Home from '../pages/Home'
+import Products from '../containers/Products';
+import Services from '../pages/Services'
+import AboutUs from '../pages/AboutUs';
+import ContactUs from '../pages/ContactUs'
 
 const App = () => {
     return (
-        <div>
-            <Header />
-        </div>
+        <Layout>
+            <Routes>
+                <Route path='/' element={<Home />} />
+                <Route path='/products' element={<Products />} />
+                <Route path='/services' element={<Services />} />
+                <Route path='/about' element={<AboutUs />} />
+                <Route path='/contact' element={<ContactUs />} />
+            </Routes>
+        </Layout>
     )
 }
 

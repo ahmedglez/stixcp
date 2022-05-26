@@ -1,7 +1,69 @@
 @import './root.scss';
 
 
-.navbar-brand img{
-    min-width:150px;
+.navbar {
+    background-color: $stixcp-blue;
+    color: $stixcp-white;
+    max-height: min-content;
+    min-width: 220px !important;
+}
+
+
+
+a {
+    color: white !important;
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.647) !important;
+}
+
+#phone-icon{
+    max-width: 30px !important;
+    max-height: 30px !important;
+    min-width: 15px;
+    filter: invert(80%);
+    
+}
+
+.dropdown-menu {
+    background-color: $stixcp-blue !important;
+    border: 2px solid rgb(85, 84, 84) !important;
+    cursor: pointer;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+
+
+#collapse-button {
+    max-width: 30px;
+    cursor: pointer;
+}
+
+.navbar-toggler:focus .navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    color: rgba(255, 255, 255, 0.071) !important;
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%);
+}
+
+
+.navbar-brand img {
+    min-width: 120px;
+    width: 100% !important;
     border-radius: 20px;
+   justify-self: center !important;
+   background-size: contain !important;
+   margin-left: 1.2em;
+
 }

@@ -1,0 +1,22 @@
+.introduction-container {
+  width: 100%;
+}
+
+.introduction-container img {
+  width: 100%;
+  min-width: 220px;
+  background-position: center;
+  background-repeat: round;
+}
+
+.introduction-text {
+  width: 50%;
+  max-width: 250px;
+  max-height: 100px;
+  position: relative;
+  top: -220px;
+  color: #302e56;
+  font-weight: 700;
+  text-shadow: 2px black !important;
+  font-size: 0.85em;
+}
