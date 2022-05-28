@@ -23,7 +23,7 @@
 
 
 .about-us-component-description {
-    font-family: $stixcp-font;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: $stixcp-blue;
     font-size: 1.32em;
     text-align: justify;
@@ -32,19 +32,23 @@
 }
 
 #about-us-component-button {
-    width: 105% !important;
-    height: 80px;
+    width: 95% !important;
+    height: 40px !important;
     max-height: 50px !important;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.729);
     border-radius: 40px;
     color: $stixcp-blue;
-    font-size: 18px;
+    font-size: 58px;
     font-family: $stixcp-font;
-    border-width: 3px;
     border-color: $stixcp-blue;
     text-align: center;
     font-weight: bold;
     transition-duration: 230ms;
+    filter: opacity(90%);
+    font-size: 10px;
+    z-index: 300;
+    cursor: pointer;
+    box-shadow: none;
 
 }
 
@@ -53,10 +57,9 @@
     box-shadow: -7px -15px 42px -14px rgba(98, 87, 87, 0.75) inset;
     -webkit-box-shadow: -7px -15px 42px -14px rgba(98, 87, 87, 0.75) inset;
     -moz-box-shadow: -7px -15px 42px -14px rgba(98, 87, 87, 0.75) inset;
-
+    opacity: 100%;
     background-color: $stixcp-blue;
     color: white;
-    border: none;
     box-shadow: none;
 }
 

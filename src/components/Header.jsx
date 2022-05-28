@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/images/logo.jpeg'
+import logo from '../assets/images/logo.png'
 import '../styles/Header.scss'
 import { Link } from 'react-router-dom';
 import phoneIcon from '../assets/icons/phone-solid.svg'

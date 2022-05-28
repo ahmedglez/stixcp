@@ -2,6 +2,7 @@
 
 .introduction-container {
     width: 100%;
+    min-width: 250px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -11,10 +12,12 @@
 
 .introduction-container img {
     width: 100%;
-    min-width: 230px;
+    min-width: 250px;
+    min-height: 400px;
+
     max-height: 750px;
     background-position: center;
-    background-repeat: round;
+    background-size:contain;
     justify-self: center;
 }
 
@@ -23,5 +26,13 @@
 @media screen and (max-width: 400px) {
     .introduction-container img{
         max-height: 350px;
+    }
+  }
+
+  
+
+  @media screen and (min-width: 400px) {
+    .introduction-container img{
+        margin-bottom: -93px;
     }
   }
