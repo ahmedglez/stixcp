@@ -3,7 +3,6 @@
 
 .services {
     width: 100%;
-    min-width: 250px;
     background-color: $stixcp-white;
     font-family: $stixcp-font;
     padding-top: 80px;
@@ -36,6 +35,7 @@
     min-width: 250px;
     background: linear-gradient();
     height: 40%;
+    min-height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -100,6 +100,8 @@
 
 
 @media screen and (max-width: 400px) {
+
+   
     .service-item-img-container ul {
         font-size: 0.65em;
     }
@@ -108,4 +110,14 @@
         font-size: 0.75em;
 
     }
+}
+
+@media screen and (min-width: 400px) {
+
+    .services-item{
+        height: 100px;
+         min-height: 550px;
+
+    }
+    
 }

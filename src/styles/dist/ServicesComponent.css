@@ -1,6 +1,5 @@
 .services {
   width: 100%;
-  min-width: 250px;
   background-color: rgba(255, 255, 255, 0.919);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   padding-top: 80px;
@@ -32,6 +31,7 @@
   min-width: 250px;
   background: linear-gradient();
   height: 40%;
+  min-height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,5 +99,11 @@
 
   .service-item-title h4 {
     font-size: 0.75em;
+  }
+}
+@media screen and (min-width: 400px) {
+  .services-item {
+    height: 100px;
+    min-height: 550px;
   }
 }

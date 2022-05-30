@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "stixcp-10246"
+  },
+  "hosting": {
+    "site": "stixcp-web-app",
+    "public": "public"   
+  }
+}

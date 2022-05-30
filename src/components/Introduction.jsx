@@ -8,7 +8,7 @@ const Introduction = () => {
     return (
         <div className='introduction'>
 
-            <div className="introduction-container container-fluid col-sm-12 col-lg-10 col-md-10 mb-lg-0">
+            <div className="introduction-container container-fluid col-12 mb-lg-0">
                 <img src={introduction_img_sm} alt="" />
             </div>
 

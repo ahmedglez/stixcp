@@ -18,7 +18,7 @@ const Header = () => {
                     <img src={logo} alt="Stixcp Logo" />
                 </Link>
 
-                <Link class='col-2' to='/contact'>
+                <Link class='col-2 phone_link' to='/contact'>
                 <img id='phone-icon' src={phoneIcon} alt="" />
                 </Link>
                 <div class="collapse navbar-collapse" id="navbarNav">

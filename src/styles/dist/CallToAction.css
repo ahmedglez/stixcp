@@ -1,36 +1,38 @@
-.call-to-action {
+.jumbotron {
   width: 100%;
   min-width: 250px;
   min-height: 500px;
   background-image: linear-gradient(to bottom, #0c034c, #200c61, #352079, #594b91, #fefefe);
-  padding-top: 45px;
-}
-
-.call-to-action-container {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
   font-size: calc(1em + 1vw);
   color: rgba(255, 255, 255, 0.919);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
-.call-to-action-title {
-  width: 80%;
-  display: flex;
-  margin: 0 auto;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;
-}
-
-.call-to-action-title h4 {
+.jumbotron h4 {
+  width: 100%;
   text-align: center;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
-.call-to-action-text {
-  width: fit-content;
+.jumbotron h4 {
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.jumbotron h4 {
+  background: linear-gradient(to right, rgba(149, 149, 166, 0.338) 0, #352d80 60%, rgba(255, 255, 255, 0.789) 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 16s infinite linear;
+}
+
+.jumbotron p {
+  width: 100%;
   display: flex;
   flex-direction: row;
   margin: 0 auto;
@@ -38,70 +40,97 @@
   text-align: start;
   margin-top: 30px;
   text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.656);
+  text-align: start;
 }
 
-.call-to-action-button {
-  width: 40%;
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  margin-top: 5px;
-  cursor: pointer;
-}
-
-.call-to-action-button button {
-  background-color: rgba(255, 255, 255, 0.606);
-  color: #0c034c;
-  filter: opacity(90%);
-  font-weight: bold;
-}
-
-.call-to-action-button button:hover {
-  background-color: rgba(24, 14, 118, 0.606);
-}
-
-.call-to-action-button button:focus {
-  border: none;
-  box-shadow: none;
-}
-
-.call-to-action-img {
+.jumbotron img {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.call-to-action-img img {
+.jumbotron img {
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 
+#button-call-to-action {
+  background-color: #5ede5e;
+  border: none;
+  color: #0c034c;
+  height: min-content;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+    text-shadow: 1px 1px 1px 1px rgba(225, 215, 215, 0.131);
+  }
+  60% {
+    background-position: 600px;
+    text-shadow: 1px 1px 1px 1px rgba(254, 253, 253, 0.454);
+  }
+  100% {
+    background-position: 900px;
+    text-shadow: 1px 1px 1px 1px #f3eeee;
+  }
+}
 @media screen and (max-width: 400px) {
-  .call-to-action-text {
+  .jumbotron p {
     font-size: 0.65em;
   }
 
-  .call-to-action-title h4 {
+  .jumbotron h4 {
     font-size: 0.95em;
     font-weight: bold;
   }
+
+  #button-call-to-action {
+    font-size: 18px;
+  }
 }
 @media screen and (min-width: 400px) {
-  .call-to-action {
-    padding-top: 150px;
+  .jumbotron {
+    padding-top: 45px;
+  }
+
+  .jumbotron p {
+    font-size: 0.65em;
+  }
+
+  .jumbotron h4 {
+    font-size: 0.95em;
+    font-weight: bold;
+  }
+
+  #button-call-to-action {
+    margin-left: -600px;
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 400px) {
+  .jumbotron {
+    padding-top: 280px;
     padding-bottom: 100px;
   }
 
-  .call-to-action-text {
+  .jumbotron p {
     font-size: 0.9em;
+    width: 60%;
   }
 
-  .call-to-action-title h4 {
+  .jumbotron h4 {
+    width: 60%;
     font-size: 1.4em;
     margin-bottom: 50px;
     font-weight: bold;
+  }
+
+  a {
+    background-color: rgba(255, 255, 255, 0.919);
+    color: #0c034c;
   }
 }
