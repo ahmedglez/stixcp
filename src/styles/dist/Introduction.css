@@ -17,13 +17,14 @@
   justify-self: center;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .introduction-container img {
     max-height: 350px;
   }
 }
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 501px) {
   .introduction-container img {
     margin-bottom: -93px;
+    min-height: 1000px;
   }
 }

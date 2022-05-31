@@ -99,7 +99,7 @@
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
 
    
     .service-item-img-container ul {
@@ -112,10 +112,9 @@
     }
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 501px) {
 
     .services-item{
-        height: 100px;
          min-height: 550px;
 
     }

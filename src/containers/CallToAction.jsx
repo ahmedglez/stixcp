@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 const CallToAction = () => {
 	return (
 
-		<div class="jumbotron">
-			<h4 class="display-4">Disfrute de un hogar y un negocio seguro!</h4>
-			<p class="lead">Ofrecemos soluciones de seguridad personalizadas desde el año 2012.
+		<div class="jumbotron container-fluid">
+			<h4 class="display-4 col-12">Disfrute de un hogar y un negocio seguro!</h4>
+			<p class="lead col-10">Ofrecemos soluciones de seguridad personalizadas desde el año 2012.
 				Nuestra empresa está formada por un grupo de profesionales con
 				experiencia y con la misión de brindar a nuestros clientes
 				soluciones integrales. Contáctenos para obtener más información sin

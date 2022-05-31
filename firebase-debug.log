@@ -1,0 +1,78 @@
+[debug] [2022-05-31T13:02:26.183Z] ----------------------------------------------------------------------
+[debug] [2022-05-31T13:02:26.196Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-05-31T13:02:26.201Z] CLI Version:   11.0.1
+[debug] [2022-05-31T13:02:26.201Z] Platform:      win32
+[debug] [2022-05-31T13:02:26.202Z] Node Version:  v16.15.0
+[debug] [2022-05-31T13:02:26.208Z] Time:          Tue May 31 2022 09:02:26 GMT-0400 (Cuba Daylight Time)
+[debug] [2022-05-31T13:02:26.209Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-31T13:02:26.618Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-31T13:02:26.619Z] > authorizing via signed-in user (ahmediglez@gmail.com)
+[debug] [2022-05-31T13:02:26.620Z] [iam] checking project stixcp-10246 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-05-31T13:02:26.624Z] > refreshing access token with scopes: []
+[debug] [2022-05-31T13:02:26.626Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-31T13:02:27.410Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2022-05-31T13:02:27.411Z] > refreshing access token with scopes: []
+[debug] [2022-05-31T13:02:27.412Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-31T13:02:29.592Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2022-05-31T13:02:29.814Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at invalidCredentialError (C:\Users\Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:145:12)
+    at refreshTokens (C:\Users\Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:485:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.getAccessToken (C:\Users\Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:147:23)
+    at async Client.addAuthHeader (C:\Users\Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:138:21)
+    at async Client.request (C:\Users\Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:94:34)
+    at async getFirebaseProject (C:\Users\Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:296:21)
+    at async getDefaultHostingSite (C:\Users\Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\getDefaultHostingSite.js:8:21)
+    at async requireHostingSite (C:\Users\Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\requireHostingSite.js:9:18)
+    at async Object.fn (C:\Users\Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\deploy.js:73:9)
+    at async C:\Users\Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:188:17
+[error] 
+[error] Error: Failed to get Firebase project stixcp-10246. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-05-31T13:02:42.935Z] ----------------------------------------------------------------------
+[debug] [2022-05-31T13:02:42.945Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-05-31T13:02:42.947Z] CLI Version:   11.0.1
+[debug] [2022-05-31T13:02:42.947Z] Platform:      win32
+[debug] [2022-05-31T13:02:42.947Z] Node Version:  v16.15.0
+[debug] [2022-05-31T13:02:42.949Z] Time:          Tue May 31 2022 09:02:42 GMT-0400 (Cuba Daylight Time)
+[debug] [2022-05-31T13:02:42.950Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-31T13:02:43.212Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-31T13:02:43.213Z] > authorizing via signed-in user (ahmediglez@gmail.com)
+[debug] [2022-05-31T13:02:43.214Z] [iam] checking project stixcp-10246 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-05-31T13:02:43.220Z] > refreshing access token with scopes: []
+[debug] [2022-05-31T13:02:43.223Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-31T13:02:43.472Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2022-05-31T13:02:43.474Z] > refreshing access token with scopes: []
+[debug] [2022-05-31T13:02:43.474Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-31T13:02:43.486Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2022-05-31T13:02:43.506Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at invalidCredentialError (C:\Users\Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:145:12)
+    at refreshTokens (C:\Users\Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:485:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.getAccessToken (C:\Users\Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:147:23)
+    at async Client.addAuthHeader (C:\Users\Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:138:21)
+    at async Client.request (C:\Users\Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:94:34)
+    at async getFirebaseProject (C:\Users\Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:296:21)
+    at async getDefaultHostingSite (C:\Users\Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\getDefaultHostingSite.js:8:21)
+    at async requireHostingSite (C:\Users\Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\requireHostingSite.js:9:18)
+    at async Object.fn (C:\Users\Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\deploy.js:73:9)
+    at async C:\Users\Ahmed\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:188:17
+[error] 
+[error] Error: Failed to get Firebase project stixcp-10246. Please make sure the project exists and your account has permission to access it.

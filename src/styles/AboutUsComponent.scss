@@ -69,7 +69,7 @@
 
 
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 501px) {
     .about-us-component-title {
         font-size: 1.1em;
     }
@@ -81,7 +81,7 @@
     }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 500px) {
     .about-us-component-title {
         font-size: 0.9em;
     }

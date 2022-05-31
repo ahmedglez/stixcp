@@ -14,7 +14,7 @@ const Header = () => {
                    <span id='collapse-button' class="navbar-toggler-icon"></span>
                    </div>
                 </button>
-                <Link class="navbar-brand   col-2 " to={'/'}>
+                <Link class="navbar-brand   col-8 col-sm-3" to={'/'}>
                     <img src={logo} alt="Stixcp Logo" />
                 </Link>
 

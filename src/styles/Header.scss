@@ -4,46 +4,64 @@
 .navbar {
     background-color: $stixcp-blue;
     color: $stixcp-white;
-    min-width: 250px !important;    
+    min-width: 250px !important;
+    max-height: 150px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-bottom: 10px;
+
 }
 
 
 
 a {
-    color: white !important;
     cursor: pointer;
+    color: $stixcp-white !important;
+
 }
+
+li {
+    background-color: transparent;
+
+}
+
+.nav-link {
+    background-color: transparent;
+    color: white;
+}
+
 
 a:hover {
     color: rgba(255, 255, 255, 0.647) !important;
 }
 
-#phone-icon{
+#phone-icon {
     max-width: 30px !important;
     max-height: 30px !important;
     min-width: 15px;
     filter: invert(80%);
-    
+    max-height: 120px
 }
 
 .dropdown-menu {
     background-color: $stixcp-blue !important;
     border: 2px solid rgb(85, 84, 84) !important;
     cursor: pointer;
+    max-height: 120px
 }
 
 .navbar-brand {
+    max-width: 30% !important;
     display: flex;
     flex-direction: row;
     justify-content: center;
     cursor: pointer;
     background-color: transparent;
+    max-height: 120px
 }
 
-.phone_link{
+.phone_link {
     background-color: transparent;
 
 }
@@ -61,7 +79,7 @@ a:hover {
     color: rgba(255, 255, 255, 0.071) !important;
 }
 
-.navbar-toggler div{
+.navbar-toggler div {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -69,16 +87,17 @@ a:hover {
 
 .navbar-toggler-icon {
     filter: invert(100%);
-    min-width: 30px; 
+    min-width: 30px;
 }
 
 
 .navbar-brand img {
-    min-width: 80px;
     width: 100% !important;
     border-radius: 20px;
-   justify-self: center !important;
-   background-size: contain !important;
-   margin-left: 1.2em;
+    justify-self: center !important;
+    background-size: contain !important;
+    max-width: 80px;
+    min-width: 5px;
+    image-resolution: 1dppx;
 
 }
