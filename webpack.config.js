@@ -31,9 +31,11 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
-          'style-loader',
-          'css-loader'
-        ]
+          {
+            loader: MiniCssExtractPlugin.loader,
+          },
+          'css-loader',
+        ],
       },
       {
         test: /\.(png|jpeg|gif|jpg)$/i,
@@ -55,11 +57,14 @@ module.exports = {
         ],
       },
       {
-        test: /\.scss$/,
+        test: /\.s[ac]ss$/i,
         use: [
-          { loader: MiniCssExtractPlugin.loader },
-          'css-loader',
-          'sass-loader',
+          // Creates `style` nodes from JS strings
+          "style-loader",
+          // Translates CSS into CommonJS
+          "css-loader",
+          // Compiles Sass to CSS
+          "sass-loader",
         ],
       },
     ],
@@ -82,7 +87,7 @@ module.exports = {
       filename: './dist/index.html',
     }),
     new MiniCssExtractPlugin(),
-   
+
   ]
 
 };
