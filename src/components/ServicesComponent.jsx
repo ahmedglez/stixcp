@@ -21,7 +21,7 @@ import ServiceItem from './ServiceItem';
 const ServicesComponent = () => {
     return (
         <div className='services container-fluid'>
-            <div className='services-container flex-lg-row flex-md-row flex-sm-column justify-content-evenly flex-wrap pt-lg-5 pt-md-5 pt-sm-2'>
+            <div className='services-container flex-lg-row flex-md-row flex-sm-column justify-content-around flex-lg-wrap flex-md-wrap pt-lg-5 pt-md-5 pt-sm-2'>
                 <ServiceItem
                     title={'Vigilancia y Seguridad'}
                     icon1={cameraicon}
@@ -59,8 +59,9 @@ const ServicesComponent = () => {
                     li3={'Manenimiento de sistemas eléctricos'}
                 />
 
-                <div className='services-smarthome'></div>
             </div>
+            <div className='services-smarthome'></div>
+
         </div>
     );
 };

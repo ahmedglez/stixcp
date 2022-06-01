@@ -5,26 +5,33 @@
     background-color: $stixcp-blue;
     color: $stixcp-white;
     min-width: 250px !important;
-    max-height: 150px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-bottom: 10px;
-
+    background-position: center;
+    height: max-content;
 }
-
 
 
 a {
     cursor: pointer;
     color: $stixcp-white !important;
-
+    background-color: $stixcp-blue;
+    margin-bottom: 15px;
 }
 
 li {
-    background-color: transparent;
+    background-color: rgba(128, 128, 128, 0.117);    
+    color: $stixcp-white;
+}
+
+
+
+ul{
+    background-color: $stixcp-blue;
 
 }
+
 
 .nav-link {
     background-color: transparent;
@@ -45,20 +52,14 @@ a:hover {
 }
 
 .dropdown-menu {
-    background-color: $stixcp-blue !important;
     border: 2px solid rgb(85, 84, 84) !important;
     cursor: pointer;
-    max-height: 120px
 }
 
 .navbar-brand {
-    max-width: 30% !important;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    padding: 0 !important;
+    max-width: 150px !important;
     cursor: pointer;
-    background-color: transparent;
-    max-height: 120px
 }
 
 .phone_link {
@@ -70,34 +71,47 @@ a:hover {
 
 
 #collapse-button {
-    max-width: 30px;
     cursor: pointer;
 }
+
+
+  
 
 .navbar-toggler:focus .navbar-toggler:active,
 .navbar-toggler-icon:focus {
     color: rgba(255, 255, 255, 0.071) !important;
+    
 }
 
 .navbar-toggler div {
     width: 100%;
     display: flex;
     justify-content: center;
+    
+
+    
 }
 
 .navbar-toggler-icon {
-    filter: invert(100%);
+    width: 100%;
     min-width: 30px;
 }
 
-
-.navbar-brand img {
-    width: 100% !important;
-    border-radius: 20px;
-    justify-self: center !important;
-    background-size: contain !important;
-    max-width: 80px;
-    min-width: 5px;
-    image-resolution: 1dppx;
+.navbar-nav{    
+    margin-top: 85px;
+    background-color: #2d2660ea;  
+    border-radius: 0px 0px 10px 10px;  
 
 }
+
+
+#navbarNav{
+    position: relative !important;
+    z-index: 7000;
+    min-width: 120%;  
+    
+}
+
+
+
+

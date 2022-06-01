@@ -6,8 +6,8 @@ import '../styles/Introduction.scss';
 const Introduction = () => {
 	return (
 		<div className='introduction'>
-			<div className='introduction-container container-fluid col-12 mb-lg-0'>
-				{window.screen.width > 400 ? (
+			<div className='introduction-container container-fluid col-12 '>
+				{window.screen.width > 500 ? (
 					<img src={introduction_img_lg} />
 				) : (
 					<img src={introduction_img_sm} />

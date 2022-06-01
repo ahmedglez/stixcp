@@ -1,7 +1,7 @@
 import React from 'react';
 const ServiceItem = ({title, icon1, icon2, icon3, li1, li2, li3}) => {
     return (
-        <div className="services-item col-lg-5 col-md-6 col-sm-12">
+        <div className="services-item col-lg-5 col-md-5 col-sm-12">
 
             <div className="service-item-title">
                 <h4>{title}</h4>

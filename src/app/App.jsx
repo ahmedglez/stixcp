@@ -6,6 +6,7 @@ import Products from '../containers/Products';
 import Services from '../pages/Services'
 import AboutUs from '../pages/AboutUs';
 import ContactUs from '../pages/ContactUs'
+import '../styles/App.css';
 
 const App = () => {
     return (

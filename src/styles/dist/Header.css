@@ -2,20 +2,27 @@
   background-color: #0c034c;
   color: rgba(255, 255, 255, 0.919);
   min-width: 250px !important;
-  max-height: 150px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-bottom: 10px;
+  background-position: center;
+  height: max-content;
 }
 
 a {
   cursor: pointer;
   color: rgba(255, 255, 255, 0.919) !important;
+  background-color: #0c034c;
+  margin-bottom: 15px;
 }
 
 li {
-  background-color: transparent;
+  background-color: rgba(128, 128, 128, 0.117);
+  color: rgba(255, 255, 255, 0.919);
+}
+
+ul {
+  background-color: #0c034c;
 }
 
 .nav-link {
@@ -36,20 +43,14 @@ a:hover {
 }
 
 .dropdown-menu {
-  background-color: #0c034c !important;
   border: 2px solid #555454 !important;
   cursor: pointer;
-  max-height: 120px;
 }
 
 .navbar-brand {
-  max-width: 30% !important;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  padding: 0 !important;
+  max-width: 150px !important;
   cursor: pointer;
-  background-color: transparent;
-  max-height: 120px;
 }
 
 .phone_link {
@@ -57,7 +58,6 @@ a:hover {
 }
 
 #collapse-button {
-  max-width: 30px;
   cursor: pointer;
 }
 
@@ -73,16 +73,18 @@ a:hover {
 }
 
 .navbar-toggler-icon {
-  filter: invert(100%);
+  width: 100%;
   min-width: 30px;
 }
 
-.navbar-brand img {
-  width: 100% !important;
-  border-radius: 20px;
-  justify-self: center !important;
-  background-size: contain !important;
-  max-width: 80px;
-  min-width: 5px;
-  image-resolution: 1dppx;
+.navbar-nav {
+  margin-top: 85px;
+  background-color: #2d2660ea;
+  border-radius: 0px 0px 10px 10px;
+}
+
+#navbarNav {
+  position: relative !important;
+  z-index: 7000;
+  min-width: 120%;
 }
