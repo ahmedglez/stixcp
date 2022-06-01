@@ -62,7 +62,5 @@ module.exports = (_module$exports = {
   }
 }), _defineProperty(_module$exports, "plugins", [new HtmlWebpackPlugin({
   template: './public/index.html',
-  filename: './index.html'
-}), new MiniCssExtractPlugin({
-  filename: 'assets/[name].css'
-})]), _module$exports);
+  filename: './dist/index.html'
+}), new MiniCssExtractPlugin()]), _module$exports);
