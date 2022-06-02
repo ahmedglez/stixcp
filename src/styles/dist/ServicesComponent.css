@@ -85,10 +85,15 @@
 .service-item-img-container ul {
   display: flex;
   flex-direction: column;
-  color: #0c034c;
   text-align: start;
   padding: 0;
   margin-left: 10%;
+  background-color: transparent;
+}
+
+li {
+  color: #0c034c;
+  background-color: transparent;
 }
 
 @media screen and (max-width: 500px) {

@@ -90,11 +90,16 @@
 .service-item-img-container ul {
     display: flex;
     flex-direction: column;
-    color: $stixcp-blue;
     text-align: start;
     padding: 0;
     margin-left: 10%;
+    background-color: transparent
 
+}
+
+li{
+color:  $stixcp-blue;
+background-color: transparent;
 }
 
 
