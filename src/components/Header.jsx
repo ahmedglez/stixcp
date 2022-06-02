@@ -9,7 +9,9 @@ import '../styles/Header.scss'
 
 const Header = () => {
     return (
+        <React.Fragment>
         <nav class="navbar" id='navbar'>
+            
             <div class="container-fluid justify-content-between p-0">
 
                 <button class="navbar-toggler p-0 col-auto " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,36 +29,38 @@ const Header = () => {
 
 
             </div>
-            <div class="collapse navbar-collapse navbar-expand-lg  align-content-center" id="navbarNav">
-                <ul class="navbar-nav justify-content-end">
-                    <li class="nav-item nav-link">
-                        <Link class="nav-link" to='/'>Inicio</Link>
-                    </li>
-
-                    <li class="nav-item">
-                        <Link class="nav-link" to='/products' >Productos</Link>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <Link class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" to='/services'>Servicios</Link>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <Link class="dropdown-item" to='/services/vigilancy-security'>Vigilancia y Seguridad</Link>
-                            <Link class="dropdown-item" to='/services/access-control'>Control de Accesos</Link>
-                            <Link class="dropdown-item" to='/services/domotic-communications'>Domotica y Comunicaciones</Link>
-                            <Link class="dropdown-item" to='/services/smart-house'>Domotica: Casa Inteligente </Link>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <Link class="nav-link" to='/about'>Quiénes somos?</Link>
-                    </li>
-
-                    <li class="nav-item" id='contact'>
-                        <Link class="nav-link" to='/contact'>Contactar</Link>
-                    </li>
-                </ul>
-            </div>
+            
         </nav>
+        <div class="collapse navbar-collapse align-content-start" id="navbarNav">
+        <ul class="navbar-nav justify-content-end">
+            <li class="nav-item nav-link">
+                <Link class="nav-link" to='/'>Inicio</Link>
+            </li>
+
+            <li class="nav-item">
+                <Link class="nav-link" to='/products' >Productos</Link>
+            </li>
+
+            <li class="nav-item dropdown">
+                <Link class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" to='/services'>Servicios</Link>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <Link class="dropdown-item" to='/services/vigilancy-security'>Vigilancia y Seguridad</Link>
+                    <Link class="dropdown-item" to='/services/access-control'>Control de Accesos</Link>
+                    <Link class="dropdown-item" to='/services/domotic-communications'>Domotica y Comunicaciones</Link>
+                    <Link class="dropdown-item" to='/services/smart-house'>Domotica: Casa Inteligente </Link>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <Link class="nav-link" to='/about'>Quiénes somos?</Link>
+            </li>
+
+            <li class="nav-item" id='contact'>
+                <Link class="nav-link" to='/contact'>Contactar</Link>
+            </li>
+        </ul>
+    </div>
+    </React.Fragment>
     );
 };
 
