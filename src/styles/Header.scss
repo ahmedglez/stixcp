@@ -52,7 +52,8 @@ a:hover {
 }
 
 .dropdown-menu {
-    border: 2px solid rgb(85, 84, 84) !important;
+    position: relative;
+    background-color: rgba(238, 0, 0, 0.394);
     cursor: pointer;
 }
 
@@ -98,18 +99,14 @@ a:hover {
 }
 
 .navbar-nav{    
-    margin-top: 85px;
-    background-color: #2d2660ea;  
+    background-color: $stixcp-blue;  
     border-radius: 0px 0px 10px 10px;  
 
 }
 
 
 #navbarNav{
-    position: relative !important;
-    z-index: 7000;
-    min-width: 120%;  
-    
+    position: relative !important;    
 }
 
 

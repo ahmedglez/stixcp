@@ -1,1 +1,8 @@
 node_modules
+firebase.json
+firebase-debug.log
+.firebaserc
+dist
+.github/workflows
+.firebase
+.vscode
