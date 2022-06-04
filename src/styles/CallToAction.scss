@@ -98,24 +98,6 @@
 
 
 
-@media screen and (max-width: 401px) {
-
-
-    .jumbotron p {
-        font-size: 0.65em;
-    }
-
-    .jumbotron h4 {
-        font-size: 0.95em;
-        font-weight: bold;
-    }
-
-    #button-call-to-action {
-        font-size: $stixcp-normal-size;
-    }
-}
-
-
 
 
 @media screen and (max-width: 500px) {
@@ -125,11 +107,11 @@
 
     }
     .jumbotron p {
-        font-size: 0.95em;
+        font-size: 0.75em;
     }
 
     .jumbotron h4 {
-        font-size: 1.15em;
+        font-size: 1.10em;
         font-weight: bold;
     }
 

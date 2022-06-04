@@ -77,31 +77,17 @@
     text-shadow: 1px 1px 1px 1px #f3eeee;
   }
 }
-@media screen and (max-width: 401px) {
-  .jumbotron p {
-    font-size: 0.65em;
-  }
-
-  .jumbotron h4 {
-    font-size: 0.95em;
-    font-weight: bold;
-  }
-
-  #button-call-to-action {
-    font-size: 24px;
-  }
-}
 @media screen and (max-width: 500px) {
   .jumbotron {
     padding-top: 45px;
   }
 
   .jumbotron p {
-    font-size: 0.95em;
+    font-size: 0.75em;
   }
 
   .jumbotron h4 {
-    font-size: 1.15em;
+    font-size: 1.1em;
     font-weight: bold;
   }
 
