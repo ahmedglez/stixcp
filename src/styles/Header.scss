@@ -25,6 +25,12 @@ a {
 li {
     background-color: rgba(128, 128, 128, 0.117);    
     color: $stixcp-white;
+    animation-duration: 250ms;
+}
+
+li:hover{
+    
+    background-color: rgba(149, 144, 144, 0.048);    
 }
 
 
