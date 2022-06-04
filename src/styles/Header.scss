@@ -2,6 +2,7 @@
 
 
 .navbar {
+    width: 100%;
     background-color: $stixcp-blue;
     color: $stixcp-white;
     min-width: 250px !important;
@@ -11,6 +12,7 @@
     background-position: center;
     height: max-content;
 }
+
 
 
 a {
@@ -29,7 +31,8 @@ li {
 
 ul{
     background-color: $stixcp-blue;
-
+    filter: grayscale(15%);
+    width: 100%;
 }
 
 
@@ -108,6 +111,10 @@ a:hover {
 #navbarNav{
     position: relative !important;    
 }
+
+
+
+
 
 
 

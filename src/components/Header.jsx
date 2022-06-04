@@ -4,19 +4,27 @@ import { Link } from 'react-router-dom';
 import phoneIcon from '../assets/icons/phone-solid.svg'
 import barras from '../assets/icons/bars-solid.svg'
 import '../styles/Header.scss'
+import '../animations/burguerMenu.scss'
 
 
 
 const Header = () => {
+
+    const handleClick = () => {
+        const NavMenu =  document.getElementById('navMenu');
+        NavMenu.classList.toggle('active');
+    }
     return (
         <React.Fragment>
             <nav class="navbar" id='navbar'>
 
                 <div class="container-fluid justify-content-between p-0">
 
-                    <button class="navbar-toggler p-0 col-auto " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span id='collapse-button' class="navbar-toggler-icon align-content-center align-self-center"> <img src={barras} alt="" align='middle' /></span>
-                    </button>
+                    <div class="navbar-toggler p-0 col-auto "  id='navMenu' onClick={handleClick} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                       <span></span>
+                       <span></span>
+                       <span></span>
+                    </div>
 
 
                     <Link class="navbar-brand   col-auto m-0 " to={'/'}>
