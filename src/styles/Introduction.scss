@@ -2,37 +2,70 @@
 
 .introduction-container {
     width: 100%;
+    height: max-content;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding: 0 !important;
-
+    padding-bottom: 0px;
+    position: relative;
+    margin-top: 50px
 }
 
 .introduction-container img {
+    position: relative;
     width: 100%;
-    min-width: 100%;
-    min-height: 300px;
-    max-height: 750px;
+    height: 20vh;
     background-position: center;
-    background-size:contain;
-    justify-self: center;
+
 }
+
+.call-to-action-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    height: fit-content;
+    color: rgba(125, 125, 125, 0.928);
+    border-radius: 10px;
+}
+
+
+.call-to-action-intro .title {
+    font-family: $stixcp-font;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1px;
+}
+
+
 
 
 
 @media screen and (max-width: 500px) {
-    .introduction-container img{
+    .introduction-container img {
         max-height: 650px;
     }
-  }
+    .call-to-action-intro .title{
+        font-size: 1.01em;
 
-  
+    }
+}
 
-  @media screen and (min-width: 501px) {
-    .introduction-container img{
+
+
+@media screen and (min-width: 501px) {
+    .introduction-container img {
         margin-bottom: -93px;
         min-height: 1000px;
-        
+
     }
-  }
+
+    .call-to-action-intro .title{
+        font-size: 2.11em;
+        margin-top: 160px;
+
+    }
+}

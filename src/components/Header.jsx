@@ -16,9 +16,16 @@ const Header = () => {
     }
     return (
         <React.Fragment>
-            <nav class="navbar" id='navbar'>
+            <nav class="navbar navbar" id='navbar'>
 
                 <div class="container-fluid justify-content-between p-0">
+
+
+
+                <Link class="navbar-brand   col-auto m-0 " to={'/'}>
+                        <img id='logo' src={logo} align="right" />
+                    </Link>
+
 
                     <div class="navbar-toggler p-0 col-auto "  id='navMenu' onClick={handleClick} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                        <span></span>
@@ -27,13 +34,8 @@ const Header = () => {
                     </div>
 
 
-                    <Link class="navbar-brand   col-auto m-0 " to={'/'}>
-                        <img id='logo' src={logo} align="right" />
-                    </Link>
+                   
 
-                    <Link class='col-auto phone_link' to='/contact'>
-                        <img id='phone-icon' src={phoneIcon} align='middle' alt="" />
-                    </Link>
 
 
                 </div>
