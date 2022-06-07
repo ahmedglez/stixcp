@@ -20,6 +20,8 @@ a {
     color: $stixcp-white !important;
     background-color: $stixcp-blue;
     margin-bottom: 15px;
+    text-align: center;
+
 }
 
 
@@ -36,6 +38,8 @@ li {
 
 
 ul{
+    text-align: center;
+
     background-color: $stixcp-blue;
     filter: grayscale(15%);
     width: 100%;
