@@ -85,12 +85,16 @@
 .service-item-img-container ul {
   display: flex;
   flex-direction: column;
-  text-align: start;
+  text-align: left !important;
   padding: 0;
   margin-left: 10%;
   background-color: transparent;
   margin-top: 15%;
   font-size: calc(1.0em + 1vw);
+}
+
+li {
+  text-align: start;
 }
 
 @media screen and (max-width: 500px) {

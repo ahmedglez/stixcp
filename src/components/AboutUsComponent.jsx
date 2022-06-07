@@ -7,7 +7,7 @@ const AboutUsComponent = () => {
     const [positionV, setPositionV] = React.useState()
 
 
-    
+
 
     return (
         <div className="container-fluid flex-sm-row justify-content-center align-content-center p-0 ">
@@ -17,7 +17,7 @@ const AboutUsComponent = () => {
 
                 <h2>Nuestra principal función</h2>
 
-                <p> Servicios de Instalación de Sistemas de Seguridad Electrónica. 
+                <p> Servicios de Instalación de Sistemas de Seguridad Electrónica.
                     Llevamos hasta su empresa y hogar la
                     tranquilidad de disfrutar un espacio
                     protegido.
@@ -27,6 +27,13 @@ const AboutUsComponent = () => {
                     extenderá la vida útil de sus equipos y
                     el buen funcionamiento de los
                     sistemas instalados.</p>
+                <p>Ofrecemos un sistema de gestión de
+                    seguridad, basado fundamentalmente en el
+                    diagnóstico e instalación de Sistemas de
+                    Seguridad Electrónica. </p>
+               
+
+
             </div>
         </div>
 
