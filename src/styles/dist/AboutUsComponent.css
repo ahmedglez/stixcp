@@ -22,6 +22,7 @@
 }
 
 .about_us_container > p {
+  width: 80%;
   color: #292626;
   font-family: "Noto Sans" "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-weight: 600;
@@ -60,7 +61,7 @@
   }
 
   .about_us_container img {
-    width: 100%;
+    width: 120%;
     clip-path: polygon(100% 0%, 100% 100%, 0% 90%, 0% 30%);
   }
 
@@ -73,11 +74,10 @@
 @media screen and (max-width: 500px) {
   .about_us_container > p {
     margin-top: 40px;
-    font-size: 1.01em;
+    font-size: 1.3em;
   }
 
   .about_us_container img {
-    width: 100%;
-    clip-path: polygon(80% 0%, 80% 80%, 0% 100%, 0% 30%);
+    clip-path: polygon(100% 0%, 100% 80%, 0% 100%, 0% 30%);
   }
 }
