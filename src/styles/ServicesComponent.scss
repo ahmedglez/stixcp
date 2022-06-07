@@ -94,13 +94,12 @@
     padding: 0;
     margin-left: 10%;
     background-color: transparent;
-
+    margin-top:15%;
+    font-size: calc(1.0em + 1vw);
+    
 }
 
-li{
-color:  $stixcp-blue;
-background-color: transparent;
-}
+
 
 
 @media screen and (max-width: 500px) {
@@ -114,6 +113,13 @@ background-color: transparent;
         font-size: 0.75em;
 
     }
+
+    li{
+        color:  $stixcp-blue;
+        background-color: transparent;
+        margin-bottom: 0px;
+        line-height: 25px;
+        }
 }
 
 @media screen and (min-width: 501px) {
@@ -121,5 +127,12 @@ background-color: transparent;
     .services-item{
          min-height: 550px;
     }
-    
+
+    li{
+        color:  $stixcp-blue;
+        background-color: transparent;
+        margin-bottom: 0px;
+        line-height: 55px;
+        }
 }
+    

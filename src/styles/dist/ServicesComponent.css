@@ -1,7 +1,7 @@
 .services {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.919);
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: "Noto Sans" "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   padding-top: 80px;
   font-size: calc(1em + 1vw);
 }
@@ -20,7 +20,7 @@
 }
 
 .services-header {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: "Noto Sans" "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   color: #0c034c;
 }
 
@@ -89,11 +89,8 @@
   padding: 0;
   margin-left: 10%;
   background-color: transparent;
-}
-
-li {
-  color: #0c034c;
-  background-color: transparent;
+  margin-top: 15%;
+  font-size: calc(1.0em + 1vw);
 }
 
 @media screen and (max-width: 500px) {
@@ -104,9 +101,23 @@ li {
   .service-item-title h4 {
     font-size: 0.75em;
   }
+
+  li {
+    color: #0c034c;
+    background-color: transparent;
+    margin-bottom: 0px;
+    line-height: 25px;
+  }
 }
 @media screen and (min-width: 501px) {
   .services-item {
     min-height: 550px;
+  }
+
+  li {
+    color: #0c034c;
+    background-color: transparent;
+    margin-bottom: 0px;
+    line-height: 55px;
   }
 }
