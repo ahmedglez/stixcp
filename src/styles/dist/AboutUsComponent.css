@@ -31,7 +31,7 @@
 .about_us_container img {
   margin-top: 0px;
   position: absolute;
-  width: 200%;
+  width: 100%;
   height: 100%;
   transition: 0.3s;
   transition-duration: 250ms;
@@ -61,7 +61,7 @@
   }
 
   .about_us_container img {
-    width: 120%;
+    width: 100%;
     clip-path: polygon(100% 0%, 100% 100%, 0% 90%, 0% 30%);
   }
 

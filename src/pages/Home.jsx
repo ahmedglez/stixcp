@@ -8,7 +8,7 @@ import '../styles/Home.scss'
 
 const Home = () => {
     return (
-        <div className='home-container container-fluid flex-column align-content-center'>
+        <div className='home-container container-fluid flex-column align-content-center p-0'>
            <Introduction />
            <AboutUsComponent />
            <ServicesComponent />

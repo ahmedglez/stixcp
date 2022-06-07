@@ -10,14 +10,15 @@ const AboutUsComponent = () => {
     
 
     return (
-        <div className="container-fluid flex-sm-row justify-content-center align-content-center  ">
+        <div className="container-fluid flex-sm-row justify-content-center align-content-center p-0 ">
 
-            <div className="col-12 about_us_container container " data-bs-spy="scroll" data-bs-target="#navId"  >
+            <div className="col-12 about_us_container container  " data-bs-spy="scroll" data-bs-target="#navId"  >
                 <img id='about_us_img' data-aos="fade-up" data-aos-easing='ease-in-out' className='' tabindex="0" src={description_image} align='center' width={'100%'} alt="" />
 
                 <h2>Nuestra principal función</h2>
 
-                <p> Servicios de Instalación de Sistemas de Seguridad Electrónica. Llevamos hasta su empresa y hogar la
+                <p> Servicios de Instalación de Sistemas de Seguridad Electrónica. 
+                    Llevamos hasta su empresa y hogar la
                     tranquilidad de disfrutar un espacio
                     protegido.
                     Todos nuestros servicios están
