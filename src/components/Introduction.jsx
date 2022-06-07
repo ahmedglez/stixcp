@@ -9,9 +9,9 @@ const Introduction = () => {
 		<div className='introduction'>
 			<div className='introduction-container tilt container-fluid col-12  align-content-center p-0 '>
 				<div className="call-to-action-intro flex-column align-content-center col-sm-8 col-md-12 col-lg-12">
-					<p className='title'>Llevamos hasta su empresa y hogar la
-						tranquilidad de disfrutar un espacio
-						protegido</p>
+					<h1 className='title'>Disfrute su tranquilidad,
+						usted la necesita
+						y nosotros se la aseguramos</h1>
 				</div>
 				<img src={introduction_img_lg} alt="" />
 

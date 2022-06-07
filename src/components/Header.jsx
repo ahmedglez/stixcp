@@ -27,7 +27,7 @@ const Header = () => {
                     </Link>
 
 
-                    <div class="navbar-toggler p-0 col-auto "  id='navMenu' onClick={handleClick} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="navbar-toggler  p-0 col-auto "  id='navMenu' onClick={handleClick} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                        <span></span>
                        <span></span>
                        <span></span>
@@ -41,30 +41,41 @@ const Header = () => {
                 </div>
 
             </nav>
-            <div class="collapse navbar-collapse align-content-start" id="navbarNav">
+            <div class="collapse navbar-collapse  align-content-center " id="navbarNav">
 
-                <ul class="navbar-nav justify-content-end">
+                <ul class="navbar-nav justify-content-center">
                     <li class="nav-item nav-link">
                         <Link class="nav-link" to='/'>Inicio</Link>
                     </li>
+
+			<hr class="my-1" />
+
 
                     <li class="nav-item">
                         <Link class="nav-link" to='/products' >Productos</Link>
                     </li>
 
-                    <li class="nav-item dropdown">
+			<hr class="my-1" />
+
+
+                    <li class="nav-item">
                         <Link class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" to='/services'>Servicios</Link>                        
                     </li>
 
+                    <hr class="my-1" />
 
 
                     <li class="nav-item">
                         <Link class="nav-link" to='/about'>Quiénes somos?</Link>
                     </li>
+                    <hr class="my-1" />
 
                     <li class="nav-item" id='contact'>
                         <Link class="nav-link" to='/contact'>Contactar</Link>
                     </li>
+
+			<hr class="my-1" />
+
                 </ul>
 
             </div>
