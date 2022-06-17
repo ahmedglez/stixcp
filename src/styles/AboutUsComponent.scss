@@ -8,11 +8,11 @@
     flex-direction: column;
     align-items: center;
     padding: 0 !important;
-    padding-bottom: 0px;
     position: relative;
     font-family: $stixcp-font;
     min-height: 80vh;
     background-color: $stixcp-blue;
+
 
 }
 
@@ -22,8 +22,8 @@
     text-align: center;
     letter-spacing: 0.1px;
     width: 100%;
-    margin-bottom: 10%;
-    margin-top: 10%;
+    margin-bottom: 15%;
+    margin-top: 15%;
 }
 
 .about_us_container > p{
@@ -98,7 +98,7 @@
     }
 
     .about_us_container img{
-        clip-path: polygon(100% 0%, 100% 80%, 0% 100%, 0% 30%);
+        clip-path: polygon(100% 0%, 100% 85%, 0% 100%, 0% 15%);
 
 
     }

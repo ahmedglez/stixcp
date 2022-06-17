@@ -10,9 +10,9 @@ const AboutUsComponent = () => {
 
 
     return (
-        <div className="container-fluid flex-sm-row justify-content-center align-content-center p-0 ">
+        <div className="container-fluid flex-sm-row justify-content-center align-content-center p-0   ">
 
-            <div className="col-12 about_us_container container  " data-bs-spy="scroll" data-bs-target="#navId"  >
+            <div className="col-12 about_us_container container   " data-bs-spy="scroll" data-bs-target="#navId"  >
                 <img id='about_us_img' data-aos="fade-up" data-aos-easing='ease-in-out' className='' tabindex="0" src={description_image} align='center' width={'100%'} alt="" />
 
                 <h2>Nuestra principal función</h2>
@@ -27,7 +27,7 @@ const AboutUsComponent = () => {
                     extenderá la vida útil de sus equipos y
                     el buen funcionamiento de los
                     sistemas instalados.</p>
-                <p>Ofrecemos un sistema de gestión de
+                <p className='pb-5'>Ofrecemos un sistema de gestión de
                     seguridad, basado fundamentalmente en el
                     diagnóstico e instalación de Sistemas de
                     Seguridad Electrónica. </p>
