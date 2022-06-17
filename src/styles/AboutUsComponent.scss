@@ -9,6 +9,7 @@
     align-items: center;
     padding: 0 !important;
     position: relative;
+    padding-top: 20%;
     font-family: $stixcp-font;
     min-height: 80vh;
     background-color: $stixcp-blue;
@@ -23,7 +24,7 @@
     letter-spacing: 0.1px;
     width: 100%;
     margin-bottom: 15%;
-    margin-top: 15%;
+    margin-top: 45%;
 }
 
 .about_us_container > p{
@@ -45,6 +46,7 @@
     transition-duration: 250ms;
     display: block;
     margin: 40px auto;
+    margin-top: 45%;
     filter: opacity(25%);
     -webkit-box-shadow: 2px 2px 29px 16px rgba(0, 0, 0, 0.27);
     box-shadow: 2px 2px 29px 16px rgba(0, 0, 0, 0.27);

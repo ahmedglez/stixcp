@@ -12,8 +12,8 @@ const Accordion = () => {
 							id='accordion'
 							role='tablist'
 							aria-multiselectable='true'>
-							<h2 className='accordion-title text-center mb-5'>
-								Somos la mejor elección.
+							<h2 className='accordion-title text-center mb-5 '>
+								Somos su mejor elección.
 							</h2>
 							<div class='panel panel-default '>
 								<div class='panel-heading' role='tab' id='headingOne'>
@@ -39,7 +39,7 @@ const Accordion = () => {
 											Todos nuestros servicios están garantizados con un
 											seguimiento para su posterior mantenimiento, labor que
 											extenderá la vida útil de sus equipos y el buen
-											funcionamiento de los sistemas instalados. .{' '}
+											funcionamiento de los sistemas instalados.{' '}
 										</p>
 									</div>
 								</div>

@@ -10,8 +10,9 @@ const Home = () => {
         <div className='home-container container-fluid flex-column align-content-center p-0'>
            <Introduction />
            <AboutUsComponent />
-            <Accordion />
            <ServicesComponent />
+           <Accordion />
+
         </div>
     );
 };  
