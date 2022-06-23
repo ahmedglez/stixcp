@@ -1,7 +1,8 @@
 @import './root.scss';
 
 .accordion {
-    background: linear-gradient(to bottom, $stixcp-blue 80%, $stixcp-white)
+    background: linear-gradient(to bottom, $stixcp-blue 80%, $stixcp-white);
+    font-family: $stixcp-font;
 }
 
 a:hover,
@@ -87,7 +88,7 @@ a:focus {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-size: 0.9em;
+    font-size: 1.2em;
     height: fit-content;
     line-height:normal;
 }
